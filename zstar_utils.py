@@ -1,10 +1,8 @@
 '''
-Created by Júlia Kaiser - Dec/2025
+Created by Júlia Kaiser - Mar/2026
 CMCC Foundation - Euro-Mediterranean Center on Climate Change
 GOCO - Global Coastal Ocean Division
 '''
-import numpy as np
-import netCDF4 as nc
 
 def Z_to_Zstar_bathyfix(Zlayers, bathymetry, eta, ilytyp, hlvmin):
     """
